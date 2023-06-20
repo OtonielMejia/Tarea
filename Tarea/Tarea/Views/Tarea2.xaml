@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea.Views.Tarea2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tarea Ejercicio 1.2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nombre" />
+            <Entry x:Name="txbnombre" />
+
+            <Label Text="Apellido" />
+            <Entry x:Name="txbapellido" />
+
+            <Label Text="Edad" />
+            <Entry x:Name="txbedad" Keyboard="Numeric" />
+
+            <Label Text="Correo electronico" />
+            <Entry x:Name="txbcorreo" />
+
+            <Button x:Name="Btnenviar" Text="Enviar Información" Clicked="Btnenviar_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

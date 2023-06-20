@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea.Views.MenuPrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido al Menu Principal"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnTarea1" Text="Tarea1" Clicked="btnTarea1_Clicked" />
+            <Button x:Name="btnTarea2" Text="Tarea2" Clicked="btnTarea2_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
